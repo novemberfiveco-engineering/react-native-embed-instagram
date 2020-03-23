@@ -1,15 +1,15 @@
 {
   "name": "react-native-embed-instagram",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "keywords": [
     "react",
     "instagram",
     "embed"
   ],
-  "homepage": "https://github.com/Kobidl/react-native-embed-instagram",
+  "homepage": "https://github.com/novemberfiveco-engineering/react-native-embed-instagram",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Kobidl/react-native-embed-instagram.git"
+    "url": "https://github.com/novemberfiveco-engineering/react-native-embed-instagram.git"
   },
   "private": false,
   "scripts": {

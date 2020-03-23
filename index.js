@@ -40,7 +40,10 @@ export default class InstagramEmbed extends PureComponent {
       return;
     }
 
-    fetch(`https://www.instagram.com/p/${id}/embed/captioned/`)
+    const headers = new Headers();
+    headers.set('accept-language', 'en-US');
+
+    fetch(`https://www.instagram.com/p/${id}/embed/captioned/`, { headers })
       .then(response => response.text())
       .then(responseText => {
         let avatarRegex = /class=\"Avatar\".*\n\s*<img\ssrc="(.*.com)"/;
